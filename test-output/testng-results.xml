@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[execution is starting]]>
+    </line>
+    <line>
+      <![CDATA[execution is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22139" started-at="2020-09-23T13:54:44Z" finished-at="2020-09-23T13:55:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22139" started-at="2020-09-23T13:54:44Z" finished-at="2020-09-23T13:55:06Z">
+      <class name="com.scripts.actitime.TESTActitimeDeleteCustomer">
+        <test-method status="PASS" signature="startExecution()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="startExecution" is-config="true" duration-ms="15" started-at="2020-09-23T13:54:44Z" finished-at="2020-09-23T13:54:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution is starting]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startExecution -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="openBrowser" is-config="true" duration-ms="10496" started-at="2020-09-23T13:54:44Z" finished-at="2020-09-23T13:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginintoApp()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="loginintoApp" is-config="true" duration-ms="945" started-at="2020-09-23T13:54:55Z" finished-at="2020-09-23T13:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoApp -->
+        <test-method status="PASS" signature="deletecustomer()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="deletecustomer" duration-ms="8659" started-at="2020-09-23T13:54:56Z" finished-at="2020-09-23T13:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="closeBrowser" is-config="true" duration-ms="2005" started-at="2020-09-23T13:55:04Z" finished-at="2020-09-23T13:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="stopExecution()[pri:0, instance:com.scripts.actitime.TESTActitimeDeleteCustomer@6f1fba17]" name="stopExecution" is-config="true" duration-ms="1" started-at="2020-09-23T13:55:06Z" finished-at="2020-09-23T13:55:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- stopExecution -->
+      </class> <!-- com.scripts.actitime.TESTActitimeDeleteCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.scripts.actitime.TESTActitimeEditLeaveType">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="startExecution"/>
+          <include name="closeBrowser"/>
+          <include name="loginintoApp"/>
+          <include name="editleavetype"/>
+          <include name="stopExecution"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeEditLeaveType -->
+      <class name="com.scripts.actitime.TESTActitimeDeleteTypeofWork">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="startExecution"/>
+          <include name="closeBrowser"/>
+          <include name="loginintoApp"/>
+          <include name="deletetypeofwork"/>
+          <include name="stopExecution"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeDeleteTypeofWork -->
+      <class name="com.scripts.actitime.TESTActitimeCreateLeaveType">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="startExecution"/>
+          <include name="closeBrowser"/>
+          <include name="loginintoApp"/>
+          <include name="createleavetype"/>
+          <include name="stopExecution"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeCreateLeaveType -->
+      <class name="com.scripts.actitime.TESTActitimeDeleteLeaveType">
+        <methods>
+          <include name="deleteleavetype"/>
+          <include name="openBrowser"/>
+          <include name="startExecution"/>
+          <include name="closeBrowser"/>
+          <include name="loginintoApp"/>
+          <include name="stopExecution"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeDeleteLeaveType -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
